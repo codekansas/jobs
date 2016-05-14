@@ -1,0 +1,257 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Benjamin}{Bolte}{ % Your name
+\urlstyle{same}\url{http://benjaminbolte.com} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:bkbolte18@gmail.com}{bkbolte18@gmail.com} | 360.713.7141 % Your contact information
+}
+
+%%%%% NOTES %%%%%
+% Add more other things (personal) - total package
+% Sell yourself as someone who brings more to the table
+% You never want the recruiter thinking
+% Everything should be a "critical experience"
+% Foreign language skills
+% ADD COMMUNITY SERVICE
+
+%%%%% COVER LETTER %%%%%
+% P1: Introduction
+% P2: Can you do the job?
+% P3: Will you do the job?
+% P4: Bring it home
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Emory University}
+
+\sectionspace % Some whitespace after the section
+
+\descript{Bachelors of Science}
+\descript{Math and Computer Science}
+\location{May 2017 | Atlanta, GA}
+Dean's List \\
+Dean's Achievement Scholarship\\
+Cum. GPA: 3.86 / 4.0 \\
+
+\vspace{2mm}
+
+\descript{Masters of Science}
+\descript{Math and Computer Science}
+\location{May 2017 | Atlanta, GA}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+Blog: \href{https://benjaminbolte.com}{\bf benjaminbolte.com} \\
+Github: \href{https://github.com/codekansas}{\bf codekansas} \\
+LinkedIn: \href{https://www.linkedin.com/in/benjamin-bolte-37337686}{\bf benjamin-bolte-37337686} \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+\subsection{Graduate}
+
+Information Retrieval\\
+Software Engineering \\
+Computational Neuroscience \\
+Computer Security \\
+Systems Programming \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Undergraduate}
+
+\location{Computer Science:}
+Artificial Intelligence \\
+Data Structures and Algorithms \\
+Assembly Programming \\
+Electronics and Microprocessors \\
+Theory of Computing \\
+
+\vspace{1mm}
+
+\location{Mathematics:}
+Numerical Analysis \\
+Complex Variables \\
+Linear Algebra \\
+Differential Equations \\
+Probability and Statistics \\
+
+\vspace{1mm}
+
+\location{Neuroscience:}
+Introduction to Neurobiology \\
+Neurophysiology Laboratory \\
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+\section{Projects}
+
+\vspace{2mm}
+
+\descript{Deep Language Modeling for Question Answering using Keras}
+
+\vspace{1mm}
+
+Implementations of multiple question-answering models using the popular Python deep learning framework Keras. Language models include a simple vector embedding model, a convolutional model, a recurrent model and an attentional recurrent model. I wrote an accompanying blog post which is available on my website.
+
+\sectionspace
+
+Electric Longboard \textbullet{} Open Source 3D Printer \textbullet{} tDCS Brain Stimulator \textbullet{} Bluetooth Texting App\textbullet{} Smart Mirror
+
+\section{Open Source Contributions}
+
+\descript{Keras}
+
+Popular deep learning framework written in Python.
+
+\begin{itemize}
+	\item{Added support for masking to \texttt{Merge} layer}
+	\item{Added \texttt{all} command to backend}
+\end{itemize}
+
+\sectionspace
+
+%------------------------------------------------
+% Experience
+%-------------------------------------------------
+
+\section{Work Experience}
+
+%------------------------------------------------
+
+\runsubsection{CADSP Lab}
+\descript{| Researcher}
+
+\location{May 2015 - Present | Atlanta, GA}
+Cooperative Analog Digital Signal Processing Lab. Reverse engineered low-level IO code to communicate with FPAA board. Designed Android app to interact with FPAA chip with the goal of integrating low-power neuromorphic hardware with mobile devices. Designed several models for always-on voice recognition. Will present poster at ISCAS 2016.
+
+\vspace{3mm}
+
+Past: Sober Lab, Emory Center for Digital Scholarship
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Leadership
+%------------------------------------------------
+
+\section{Leadership and Community Engagement}
+
+\sectionspace
+
+\begin{tabular}{@{}ll}
+	2016 & Teaching Assistant, Data Structures and Algorithms\\
+	2015 & "Seeds of Sustainability" Alternative Spring Break\\
+	2014 & Cognitively Based Compassion Training\\
+	2014 & Co-ed Intramural Soccer Champions\\
+	2014 & Computational Neuroscience Graduate Journal Club\\
+	2013 & Emory Undergraduate Math Majors Association\\
+	2013 & Raya Community Tutoring\\
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+\section{Awards and Honors} 
+
+\begin{tabular}{@{}ll}
+	2016 & 2nd round of Facebook Hacker's Cup\\
+	2016 & 3rd place, Mercer Programming Competition\\
+	2015 & 2nd place, ACM ICPC Southeast Regional Competition Div. B\\
+	2015 & Google Code Jam qualifier\\
+	2014 & Top 10 finisher at HackGT for Phonely web application\\
+	2014 & Dean's Achievement Scholarship\\
+	2014 & Computational Neuroscience Training Grant Trainee\\
+\end{tabular}
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
